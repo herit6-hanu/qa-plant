@@ -25,9 +25,12 @@ export default function Navbar() {
                     <Link href="/dashboard">Dashboard</Link>
                 </nav>
 
-                <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
+                <Link
+                    href="/login"
+                    className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
+                >
                     Login
-                </button>
+                </Link>
             </div>
         </header>
     );
